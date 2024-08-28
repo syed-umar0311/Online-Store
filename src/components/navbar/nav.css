@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar {
+    height: 65px;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly with space between them */
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+.navbar-logo {
+    background-color: black;
+    flex: 0;
+}
+
+.navbar-logo a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.search {
+    
+    width: 48%; /* Set the container width for the search box */
+    display: flex;
+    justify-content: center;
+    
+    background-color: black;
+}
+
+.search input[type="search"] {
+   
+    width: 783px; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 79px;
+    font-size: 1.1rem; 
+    height: 39px;
+    color: black;
+    background-color: white;
+}
+
+
+.navbar-links {
+   padding-top: 5px;
+    height: fit-content;
+    margin-top: 10px;
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17px;
+    flex: 3;
+    width: 30%;
+}
+
+.navbar-links a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar-links a:hover {
+    color: #ffcc00;
+}
+.navbar-links ul{
+    background-color: black;
+    list-style-type: none;
+}
+.navbar-links li{
+    background-color: black;
+    text-decoration: none;
+    list-style-type:none ;
+}
+.search-results {
+    margin: 3px;
+    border: 1px solid #ddd;
+   
+    color: white;
+    border-radius: 5px;
+       z-index: +1;
+       position: relative;
+       left: 12%;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: +1;
+  }
+  
+  .item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: +1;
+    
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+    z-index: +1;
+  }
+  
+  .item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-item {
+    z-index: +1;
+    padding: 10px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
+/* Responsive adjustments */

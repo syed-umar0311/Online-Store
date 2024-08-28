@@ -1,0 +1,32 @@
+.footer {
+  background-color: transparent; /* Dark background color for the footer */
+  padding: 20px; /* Add padding around the content */
+  text-align: center; /* Center align the content */
+}
+
+.icon-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the icons horizontally */
+  gap: 35px; /* Space between the icons */
+}
+
+.icon_1 {
+  width: 65px; /* Set the width of the icons */
+  height: 35px; /* Set the height of the icons */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+.icon_2 {
+  width: 35px; /* Set the width of the icons */
+  height:35px; /* Set the height of the icons */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+.icon_3 {
+  width: 35px; /* Set the width of the icons */
+  height: 35px; /* Set the height of the icons */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  opacity: 0.8; /* Reduce opacity on hover */
+}
